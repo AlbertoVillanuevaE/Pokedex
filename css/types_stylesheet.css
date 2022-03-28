@@ -1,0 +1,322 @@
+.types{
+
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    color:#f6e301;
+    width: fit-content;
+    align-items: center;
+    font-size: small;  
+
+}
+
+.noneType{
+
+    background-color: transparent;
+    color: transparent;
+    border-color: transparent;
+}
+
+.typeBug{
+
+    background-color: #a8b828;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);
+    color: white;
+    text-align: center;
+    font-size: small;
+    letter-spacing: 5px;
+    margin-left: 15px;
+    padding-left: 5px;
+
+}
+
+.typeDark{
+
+    background-color: #685648;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);;
+    color: white;
+    text-align: center;
+    font-size: small;
+    letter-spacing: 3px;
+    margin-left: 15px;
+
+}
+
+.typeDragon{
+
+    background-color: #7766ee;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);
+    color: white;
+    text-align: center;
+    font-size: small;
+    margin-left: 15px;
+
+}
+
+.typeElectric{
+
+    background-color: #f9b716;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);
+    color: white;
+    text-align: center;
+    font-size: small;
+    margin-left: 15px;
+
+}
+
+.typeFairy{
+    
+    background-color: #f1acf1;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);
+    color: white;
+    text-align: center;
+    font-size: small;
+    letter-spacing: 3px;
+    margin-left: 15px;
+
+}
+
+.typeFighting{
+
+    background-color: #7b311b;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);
+    color: white;
+    text-align: center;
+    font-size: small;
+    margin-left: 15px;
+
+}
+
+.typeFire{
+
+    background-color: #d92f06;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);
+    color: white;
+    text-align: center;
+    font-size: small;
+    letter-spacing: 8px;
+    margin-left: 15px;
+    padding-left: 5px;
+
+}
+
+.typeFlying{
+
+    background-color: #7388df;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);;
+    color: white;
+    text-align: center;
+    font-size: small;
+    letter-spacing: 3px;
+    margin-left: 15px;
+
+}
+
+.typeGhost{
+
+    background-color: #5e5eaf;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);;
+    color: white;
+    text-align: center;
+    font-size: small;
+    letter-spacing: 3px;
+    margin-left: 15px;
+
+}
+
+.typeGrass{
+
+    background-color: #76c437;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);;
+    color: white;
+    text-align: center;
+    font-size: small;
+    letter-spacing: 3px;
+    margin-left: 15px;
+
+}
+
+.typeGround{
+
+    background-color: #d1b055;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);;
+    color: white;
+    text-align: center;
+    font-size: small;
+    margin-left: 15px;
+
+}
+
+.typeIce{
+
+    background-color: #6dd3f5;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);
+    color: white;
+    text-align: center;
+    font-size: small;
+    letter-spacing: 5px;
+    margin-left: 15px;
+    padding-left: 5px;
+
+}
+
+.typeNormal{
+
+    background-color: #c4beb4;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);;
+    color: white;
+    text-align: center;
+    font-size: small;
+    margin-left: 15px;
+
+}
+
+.typePoison{
+
+    background-color: #803582;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);;
+    color: white;
+    text-align: center;
+    font-size: small;
+    margin-left: 15px;
+
+}
+
+.typePsychic{
+
+    background-color: #ed4883;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);;
+    color: white;
+    text-align: center;
+    font-size: small;
+    margin-left: 15px;
+
+}
+
+.typeRock{
+
+    background-color: #a58c43;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);
+    color: white;
+    text-align: center;
+    font-size: small;
+    letter-spacing: 6px;
+    margin-left: 15px;
+    padding-left: 5px;
+
+}
+
+
+.typeSteel{
+
+    background-color: #aaaabb;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);;
+    color: white;
+    text-align: center;
+    font-size: small;
+    letter-spacing: 3px;
+    margin-left: 15px;
+
+}
+
+.typeWater{
+
+    background-color: #0c69c6;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    height:fit-content;
+    width: 70px;
+    border-color: rgba(255, 255, 255, 0.7);;
+    color: white;
+    text-align: center;
+    font-size: small;
+    letter-spacing: 3px;
+    margin-left: 15px;
+
+}

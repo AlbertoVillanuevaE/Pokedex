@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.typekit.net/oad1kxy.css">
+        <link rel="stylesheet" href="./css/stylesheet.css">
+        <link rel="stylesheet" href="./css/types_stylesheet.css">
+        <title>Pokédex</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="imgBanner"><img src="./img/Pokeball.png" width="100px"></div>
+            <div class="bannerRed"></div>
+            <div class="bannerWhite"></div>
+        </header>
+        
+        <h1>¡Bienvenido a la Pokédex!</h1><br>
+
+        <div class="pokeDex">
+
+        <img src="./img/pokedex.jpg" width="850px">
+
+        <div>
+            <input type="text" placeholder="Buscar nombre o N." id="idName" id="idNumber" name="pokeName" class="nameSearch"><br>
+        </div>
+        
+        <div>
+            <button onclick="fetchPokemon()" class="searchButton">Cambiar Pokémon</button>
+        </div>
+
+        <div class="screen">
+            <div id="pokeNum"></div>
+            <div id="Name" class="pokeName"></div>
+            <img src="./img/Pokeball.png" alt="Pokeball" id="pokeImg" class="pokeball"><br>
+        </div>
+        <div class="panel">
+            <button class="buttons button1" onclick="button1()"></button>
+            <button class="buttons" onclick=""></button>
+            <button class="buttons" onclick=""></button>
+            <button class="buttons" onclick=""></button>
+            <button class="buttons button5" onclick=""></button>
+            <button class="buttons button6 buttonsSecondRow" onclick=""></button>
+            <button class="buttons buttonsSecondRow" onclick=""></button>
+            <button class="buttons buttonsSecondRow" onclick=""></button>
+            <button class="buttons buttonsSecondRow" onclick=""></button>
+            <button class="buttons button10 buttonsSecondRow" onclick=""></button>
+
+        </div>
+
+        <div id="height" class="pokeHeight"></div>
+        <div id="weight" class="pokeWeight"></div>
+
+        <div class="screen2">
+
+        
+        
+            <div class="types">Tipo:
+                 <div id="type1"> </div>
+                <div id="type2"></div>
+            </div>
+        
+            <div class="stats">
+                <div class="statTypes">
+                    <div class="divPoints">Base</div>
+                    <div id="hpBase" class="divpoints"></div>
+                    <div id="attackBase" class="divpoints"></div>
+                    <div id="defenseBase" class="divpoints"></div>
+                    <div id="spAtkBase" class="divpoints"></div>
+                    <div id="spDefBase" class="divpoints"></div>
+                    <div id="speedBase" class="divpoints"></div>
+                </div>
+            
+                <div class="statTypes">
+                    <div class="divPoints">Effort</div>
+                    <div id="hpEffort" class="divpoints"></div>
+                    <div id="attackEffort" class="divpoints"></div>
+                    <div id="defenseEffort" class="divpoints"></div>
+                    <div id="spAtkEffort" class="divpoints"></div>
+                    <div id="spDefEffort" class="divpoints"></div>
+                    <div id="speedEffort" class="divpoints"></div>
+                </div>
+            </div>
+        
+        <div class="statNames">
+            <div class="divNames">Hp</div>
+            <div class="divNames">Atk</div>
+            <div class="divNames">Def</div>
+            <div class="divNames">Sp.<br>Atk</div>
+            <div class="divNames">Sp.<br>Def</div>
+            <div class="divNames">Speed</div>
+        </div>
+
+       
+        <div class="moves">Moves: 
+            <div id="move1" class="moveName"></div>
+            <div id="move2"></div>
+            <div id="move3"></div>
+            <div id="move4"></div>
+            <div id="move5"></div>
+            <div id="move6"></div>
+            <div id="move7"></div>
+            <div id="move8"></div>
+            <div id="move9"></div>
+            <div id="move10"></div>
+        </div>
+        
+        </div>
+
+        </div> 
+
+    </body>
+
+    <footer>
+        <script src="./js/pokedex.js"></script>
+    </footer>
+
+</html>

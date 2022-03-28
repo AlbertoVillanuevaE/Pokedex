@@ -1,0 +1,376 @@
+*{
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    ;
+}
+
+header{
+
+    display: flex;
+    margin-bottom: 150px;
+
+}
+
+body{
+
+    margin-left: 20px;
+}
+
+h1{
+
+    font-size:xx-large;
+    color: #31a7f1;
+
+}
+
+/*----------------------------Header---------------------------*/
+
+.imgBanner{
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+
+}
+.bannerRed{
+
+    position: absolute;
+    top: 0px;
+    background-color: #ff0606;
+    height: 50px;
+    left: 0px;
+    width: 100%;
+    border-style: solid;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+
+}
+
+.bannerWhite{
+
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    background-color:white;
+    height: 50px;
+    width: 100%;
+    border-style: solid;
+    border-left: transparent;
+    border-right: transparent;
+
+}
+
+
+/*-----------------------Principal Screen----------------------*/
+
+/*imagen total original 2458 x 3384   nueva  617 x 850 reduccion de 25%
+                        719 x 1094 Original pantalla   290 Ancho Borde  728 Altura Borde
+                        180 x 274  Arreglada            83              301
+            */
+
+.pokeDex{
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 850px;
+    
+}
+
+.screen{ 
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 274px;
+    height: 180px;
+    left: 75px;
+    top: 186px;
+    text-align: center;
+
+}
+
+
+.pokeball{
+
+    position: absolute;
+    top: 10px;
+    left: 62px;
+    width: 150px;
+
+}
+
+.nameSearch{
+
+    position: absolute;
+    top: 475px;
+    left: 100px;
+    width: 140px;
+    background-color: #55ab62;
+    color: #0c517a;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 4px;
+    padding-left: 3px;
+
+}
+
+.nameSearch::placeholder{
+    
+    color: #0c517a;
+    font-weight: 600;
+    font-size: small;
+    
+}
+
+.searchButton{
+
+    position: absolute;
+    top: 505px;;
+    left: 100px;
+    width: 140px;
+    height: 64px;
+    border-style: none;  
+    border-radius: 4px;
+    background-color: #55ab62;
+    color: #0c517a;
+    font-weight: 700;
+
+}
+
+.searchButton:hover{
+
+    position: absolute;
+    top: 505px;;
+    left: 100px;
+    width: 140px;
+    height: 64px;
+    border-style: none;  
+    border-radius: 4px;
+    background-color: #6ec67c;
+
+}
+
+.pokeImage{
+
+    position: absolute;
+    top: 50px;
+    left: 77px;
+    height: 120px;
+
+}
+
+.pokeNumber{
+
+    text-align: center;
+    text-transform: capitalize;
+    font-size:large;
+    margin-top: 0px;
+    font-weight: 600;
+    color: #31a7f1;
+
+}
+
+.pokeName{
+
+    text-transform: capitalize;
+    font-size:large;
+    font-weight: 500;
+
+}
+
+/*---------------------Secondary Screen------------------------*/
+
+.screen2{
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    color: #f6e301;
+    width: 279px;
+    height: 130px;
+    left: 508px;
+    top: 186px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+
+/*----------------------------Stats----------------------------*/
+
+.stats{
+    
+        position: absolute;
+        top: 60px;
+        display: flex;
+        flex-direction:column;
+        align-content: stretch;
+        align-items: flex-start;
+        justify-content: center;
+        font-size: x-small;
+        height: fit-content;
+    
+    }
+
+.statTypes{
+
+    width: 279px;
+    display: flex;
+    flex: row;
+    justify-content:flex-start;
+    align-content:center;
+    align-items: baseline;
+    font-size: small;
+    text-align: left;
+
+}
+
+.divpoints{
+
+    flex-basis: 38px;
+    text-align: center;
+    font-size:smaller;
+
+}
+
+.statNames{
+
+    width: 279px;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items:center;
+    font-size: smaller;
+    text-align: center;
+    padding-right: 10px;
+    
+}
+
+.divNames{
+
+    flex-basis: 40px;
+    font-size: smaller;
+
+}
+
+/*------------------------Button Panels------------------------*/
+
+.panel{
+
+    display: flex;
+    flex-wrap: wrap;
+    position:absolute;
+    top: 340px;
+    left: 515px;
+    height: 75px;
+    width: 275px;;
+
+}
+.buttons{
+
+    width: 54.5px;
+    height: 38px;
+    
+    border-bottom-color: #0b439a;
+    border-right-color: #0b439a;
+    border-top: none;
+    border-left: none;
+    border-width: 1px;
+    background-color: #31a7f1;
+    
+
+}
+
+.button1{
+
+    border-left: none;
+}
+
+.button5{
+
+    border-top-right-radius: 5px;
+
+}
+
+.button6{
+
+   border-bottom-left-radius: 5px; 
+
+}
+
+.button10{
+
+    border-bottom-right-radius: 5px;
+
+}
+
+.buttonsSecondRow{
+
+    border-bottom: none;
+
+}
+
+.buttons:hover{
+
+    cursor: pointer;
+    background-color: #5a8dfb;
+
+}
+
+/*-----------------------------Moves---------------------------*/
+
+.moves{
+
+    position: absolute;
+    top: 35px;
+    display: inline-flex;
+    font-size:x-small;
+
+}
+
+.moveName{
+
+    margin-left: 10px;
+    color: #f6e301;
+
+}
+
+
+/*------------------------Screen Panels------------------------*/
+
+.pokeHeight{
+    
+    position: absolute;
+    color: #f6e301;
+    top: 530px;
+    left: 510px;
+    width: 120px; 
+    text-align: center;
+
+}
+
+.pokeWeight{
+    
+    position: absolute;
+    color: #f6e301;
+    top: 530px;
+    left: 665px;
+    width: 120px; 
+    text-align: center;
+
+}
+
+/*------------------------Display nothing---------------------------*/
+
+.null{
+
+    display: none;
+
+}
